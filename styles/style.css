@@ -1,4 +1,84 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans";
+}
+
+/* banner part */
+
+.header {
+  display: flex;
+  background-image: url(/images/banner/banner1.png);
+  width: 100%;
+  height: 700px;
+  margin-bottom: 130px;
+}
+
+.header div {
+  padding: 216px 230px 24px 845px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+  text-align: right;
+  color: #151414;
+}
+
+.banner-description {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: right;
+  color: #444343;
+  padding-bottom: 30px;
+}
+
+.button {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: right;
+  color: #ffffff;
+  position: absolute;
+  left: 75.46%;
+  padding: 20px 25px;
+  background: #f15b22;
+  border-radius: 5px;
+}
+
+/* main part */
+
+/* failures of previous years */
+
+.my-failure {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin: 0 250px 130px;
+}
+
+.failure {
+  padding-top: 240px;
+}
+
+.failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  padding-bottom: 24px;
+}
+
+.failure-desctiption {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  padding-bottom: 16px;
+}
+
+.failure-points{
+    padding-bottom: 8px;
+}
+
+.tick-icon {
+  width: 20px;
+  height: 20px;
 }
